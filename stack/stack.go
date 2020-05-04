@@ -2,7 +2,7 @@ package stack
 
 type Stack []interface{}
 
-func Stack() *Stack {
+func NewStack() *Stack {
 	s := Stack(make([]interface{}, 0))
 	return &s
 }
